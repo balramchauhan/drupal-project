@@ -1,0 +1,6 @@
+local:
+    root: /var/www/my-drupal-project/docroot
+    uri: 'http://local.my-drupal-project.com'
+    host: local.my-drupal-project.com
+    user: vagrant
+    ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }

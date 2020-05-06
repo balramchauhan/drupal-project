@@ -1,0 +1,8 @@
+name: Pepsico Child Profile
+core: '8.x'
+type: profile
+base profile: pepsico_base_profile
+description: 'Pepsico Child Profile.'
+exclude:
+  - comment
+
